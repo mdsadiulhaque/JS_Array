@@ -6,4 +6,4 @@ return total*(1-discount);
 
 }
 
-console.log(sum(0.1,20,30,1));
+console.log(sum(0.1,20,30,1)); 
