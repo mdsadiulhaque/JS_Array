@@ -13,6 +13,9 @@ catch (e){
 function countOccurrences(array,searchElement){
     if (!Array.isArray(array))
     throw new Error('Invalid array.');
-return array.
+return array.reduce((accumlator,current)=>{
+    const occurrence = ( current === searchElement)?1:0;
+    return accumlator+occurrence;
+},0);
 
 }
